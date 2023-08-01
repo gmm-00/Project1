@@ -1,0 +1,94 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Recipes</title>
+
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+ <nav class="navbar bg-light">
+  <div class="container-fluid d-flex">
+    <a href="#" class="text-primary">BY  {{user.username}}</a>
+    <a href="/login/" class="btn btn-outline-success me-2">Logout</a>
+  </div>
+</nav>
+
+
+</nav>
+<div class="container mt-5 ">
+<form method="post" class="col-6 mx-auto card px-3 shadow-lg" enctype="multipart/form-data">
+  {% csrf_token %}
+  <h2 class="py-2"> Add Recipes</h2>
+  <hr>
+  <div class="mb-3">
+    <label  class="form-label">Email address</label>
+    <input type="email" class="form-control" name="email" required>
+    
+  </div>
+  <div class="mb-3">
+    <label  class="form-label">Recipes Name</label>
+    <input type="text" class="form-control" name="recipe_name" required>
+  </div>
+  <div class="mb-3">
+   <label for="exampleFormControlTextarea1" class="form-label" >Recipes Description</label>
+  <textarea name="recipe_des" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+
+  </div>
+    <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Recipes Image</label>
+    <input type="file" class="form-control" name="recipe_image">
+  </div>
+  <div class="mb-3">
+  <button type="submit" value="submit" class="btn btn-success">Add</button></div>
+</form></div>
+
+
+
+<div class="container">
+  <form class="mt-5 mx-auto col-6">
+   <div class="mb-3">
+    <label  class="form-label">Search Recipes</label>
+    <input type="text" class="form-control" name="search">
+  </div>
+  <button type="submit" class="btn btn-primary">Search</button>
+</form>
+</div>
+
+
+
+{% if details %}
+<table class=" mt-5 table table-striped table-hover table-bordered " enctype="multipart/form-data">
+  <thead>
+    <tr>
+      <th scope="col">S.N</th>
+      <th scope="col">Email</th>
+      <th scope="col">Recipe Name</th>
+      <th scope="col">Recipe Description</th>
+      <th scope="col">Recipe Image</th>
+      <th scope="col">Action</th>
+    </tr>
+  </thead>
+  <tbody class=" table-group-divider t">
+    {% for recipe in details %}
+    <tr>
+      <th>{{forloop.counter}}</th>
+      <th>{{recipe.email}}</th>
+      <td>{{recipe.recipe_name}}</td>
+      <td>{{recipe.recipe_des}}</td>
+      <td>
+        <img src="/media/{{recipe.recipe_image}}" style="height:100px"</td>
+      <td><a href="/delete_recipes/{{recipe.id}}/"class="btn btn-danger">Delete</a>
+      <td><a href="/update_recipes/{{recipe.id}}/"class="btn btn-success">Update</a>
+    </tr>
+    {% endfor%} 
+    {%endif%} 
+  </tbody>
+
+</table>
+
+
+</body>
+</html>

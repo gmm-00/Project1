@@ -1,0 +1,36 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Recipes</title>
+
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+<div class="container mt-5 ">
+<form method="post" class="col-6 mx-auto card px-3 shadow-lg" enctype="multipart/form-data">
+  {% csrf_token %}
+  <h2 class="py-2"> Update Recipes</h2>
+  <hr>
+  <div class="mb-3">
+    <label  class="form-label">Email address</label>
+    <input type="email" class="form-control" name="email" value="{{update.email}}">
+    
+  </div>
+  <div class="mb-3">
+    <label  class="form-label">Recipes Name</label>
+    <input type="text" class="form-control" name="recipe_name" value="{{update.recipe_name}}">
+  </div>
+  <div class="mb-3">
+   <label for="exampleFormControlTextarea1" class="form-label" >Recipes Description</label>
+  <textarea name="recipe_des" class="form-control" id="exampleFormControlTextarea1" rows="3">{{update.recipe_des}}</textarea>
+
+  </div>
+    <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Recipes Image</label>
+    <input type="file" class="form-control" name="recipe_image">
+  </div>
+  <div class="mb-3">
+  <button type="submit" value="submit" class="btn btn-success">Update</button></div></form></div></body></html>
