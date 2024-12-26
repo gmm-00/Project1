@@ -1,0 +1,1162 @@
+[
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "Faker",
+        "importPath": "faker",
+        "description": "faker",
+        "isExtraImport": true,
+        "detail": "faker",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "EmailMultiAlternatives",
+        "importPath": "django.core.mail",
+        "description": "django.core.mail",
+        "isExtraImport": true,
+        "detail": "django.core.mail",
+        "documentation": {}
+    },
+    {
+        "label": "authenticate",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "logout",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "views",
+        "importPath": "recipe",
+        "description": "recipe",
+        "isExtraImport": true,
+        "detail": "recipe",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
+        "label": "staticfiles_urlpatterns",
+        "importPath": "django.contrib.staticfiles.urls",
+        "description": "django.contrib.staticfiles.urls",
+        "isExtraImport": true,
+        "detail": "django.contrib.staticfiles.urls",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "recipe.migrations.0001_initial",
+        "description": "recipe.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='recipes',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('recipe_name', models.CharField(max_length=50)),",
+        "detail": "recipe.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "recipe.migrations.0002_recipes_email",
+        "description": "recipe.migrations.0002_recipes_email",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('recipe', '0001_initial'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='recipes',\n            name='email',\n            field=models.EmailField(default='example@example.com', max_length=254),\n        ),",
+        "detail": "recipe.migrations.0002_recipes_email",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "recipe.migrations.0003_rename_recipes_recipe",
+        "description": "recipe.migrations.0003_rename_recipes_recipe",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('recipe', '0002_recipes_email'),\n    ]\n    operations = [\n        migrations.RenameModel(\n            old_name='recipes',\n            new_name='Recipe',\n        ),\n    ]",
+        "detail": "recipe.migrations.0003_rename_recipes_recipe",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "recipe.migrations.0004_alter_recipe_recipe_image",
+        "description": "recipe.migrations.0004_alter_recipe_recipe_image",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('recipe', '0003_rename_recipes_recipe'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='recipe',\n            name='recipe_image',\n            field=models.ImageField(null=True, upload_to='media'),\n        ),",
+        "detail": "recipe.migrations.0004_alter_recipe_recipe_image",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "recipe.migrations.0005_alter_recipe_recipe_name",
+        "description": "recipe.migrations.0005_alter_recipe_recipe_name",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('recipe', '0004_alter_recipe_recipe_image'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='recipe',\n            name='recipe_name',\n            field=models.CharField(max_length=50, null=True),\n        ),",
+        "detail": "recipe.migrations.0005_alter_recipe_recipe_name",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "recipe.migrations.0006_alter_recipe_recipe_name",
+        "description": "recipe.migrations.0006_alter_recipe_recipe_name",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('recipe', '0005_alter_recipe_recipe_name'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='recipe',\n            name='recipe_name',\n            field=models.CharField(default=None, max_length=50),\n        ),",
+        "detail": "recipe.migrations.0006_alter_recipe_recipe_name",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "recipe.migrations.0007_alter_recipe_recipe_name",
+        "description": "recipe.migrations.0007_alter_recipe_recipe_name",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('recipe', '0006_alter_recipe_recipe_name'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='recipe',\n            name='recipe_name',\n            field=models.CharField(default=None, max_length=50, null=True),\n        ),",
+        "detail": "recipe.migrations.0007_alter_recipe_recipe_name",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "recipe.migrations.0008_recipe_user",
+        "description": "recipe.migrations.0008_recipe_user",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n        ('recipe', '0007_alter_recipe_recipe_name'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='recipe',\n            name='user',\n            field=models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.SET_NULL, to=settings.AUTH_USER_MODEL),",
+        "detail": "recipe.migrations.0008_recipe_user",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "recipe.migrations.0009_register_page_login_page",
+        "description": "recipe.migrations.0009_register_page_login_page",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n        ('recipe', '0008_recipe_user'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='register_page',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "recipe.migrations.0009_register_page_login_page",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "recipe.migrations.0010_delete_login_page",
+        "description": "recipe.migrations.0010_delete_login_page",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('recipe', '0009_register_page_login_page'),\n    ]\n    operations = [\n        migrations.DeleteModel(\n            name='login_page',\n        ),\n    ]",
+        "detail": "recipe.migrations.0010_delete_login_page",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "recipe.migrations.0011_remove_register_page_user",
+        "description": "recipe.migrations.0011_remove_register_page_user",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('recipe', '0010_delete_login_page'),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='register_page',\n            name='user',\n        ),\n    ]",
+        "detail": "recipe.migrations.0011_remove_register_page_user",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "recipe.migrations.0012_rename_register_page_registerpage",
+        "description": "recipe.migrations.0012_rename_register_page_registerpage",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('recipe', '0011_remove_register_page_user'),\n    ]\n    operations = [\n        migrations.RenameModel(\n            old_name='register_page',\n            new_name='RegisterPage',\n        ),\n    ]",
+        "detail": "recipe.migrations.0012_rename_register_page_registerpage",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "recipe.migrations.0013_registerpage_user",
+        "description": "recipe.migrations.0013_registerpage_user",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n        ('recipe', '0012_rename_register_page_registerpage'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='registerpage',\n            name='user',\n            field=models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.SET_NULL, to=settings.AUTH_USER_MODEL),",
+        "detail": "recipe.migrations.0013_registerpage_user",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "recipe.migrations.0014_delete_registerpage",
+        "description": "recipe.migrations.0014_delete_registerpage",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('recipe', '0013_registerpage_user'),\n    ]\n    operations = [\n        migrations.DeleteModel(\n            name='RegisterPage',\n        ),\n    ]",
+        "detail": "recipe.migrations.0014_delete_registerpage",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "recipe.migrations.0015_login",
+        "description": "recipe.migrations.0015_login",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('recipe', '0014_delete_registerpage'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='login',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('username', models.CharField(max_length=20)),",
+        "detail": "recipe.migrations.0015_login",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "recipe.migrations.0016_delete_login",
+        "description": "recipe.migrations.0016_delete_login",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('recipe', '0015_login'),\n    ]\n    operations = [\n        migrations.DeleteModel(\n            name='login',\n        ),\n    ]",
+        "detail": "recipe.migrations.0016_delete_login",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "recipe.migrations.0017_recipe_recipe_count",
+        "description": "recipe.migrations.0017_recipe_recipe_count",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('recipe', '0016_delete_login'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='recipe',\n            name='recipe_count',\n            field=models.IntegerField(default=1),\n        ),",
+        "detail": "recipe.migrations.0017_recipe_recipe_count",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "recipe.migrations.0018_department_studentid_student",
+        "description": "recipe.migrations.0018_department_studentid_student",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('recipe', '0017_recipe_recipe_count'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Department',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('department', models.CharField(max_length=50)),",
+        "detail": "recipe.migrations.0018_department_studentid_student",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "recipe.migrations.0019_rename_student_email_student_student_email_and_more",
+        "description": "recipe.migrations.0019_rename_student_email_student_student_email_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('recipe', '0018_department_studentid_student'),\n    ]\n    operations = [\n        migrations.RenameField(\n            model_name='student',\n            old_name='Student_email',\n            new_name='student_email',\n        ),",
+        "detail": "recipe.migrations.0019_rename_student_email_student_student_email_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "recipe.migrations.0020_alter_department_options",
+        "description": "recipe.migrations.0020_alter_department_options",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('recipe', '0019_rename_student_email_student_student_email_and_more'),\n    ]\n    operations = [\n        migrations.AlterModelOptions(\n            name='department',\n            options={'ordering': ['department']},\n        ),\n    ]",
+        "detail": "recipe.migrations.0020_alter_department_options",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "recipe.migrations.0021_alter_student_options",
+        "description": "recipe.migrations.0021_alter_student_options",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('recipe', '0020_alter_department_options'),\n    ]\n    operations = [\n        migrations.AlterModelOptions(\n            name='student',\n            options={'ordering': ['student_name']},\n        ),\n    ]",
+        "detail": "recipe.migrations.0021_alter_student_options",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "recipe.migrations.0022_alter_studentid_options",
+        "description": "recipe.migrations.0022_alter_studentid_options",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('recipe', '0021_alter_student_options'),\n    ]\n    operations = [\n        migrations.AlterModelOptions(\n            name='studentid',\n            options={'ordering': ['student_id']},\n        ),\n    ]",
+        "detail": "recipe.migrations.0022_alter_studentid_options",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "recipe.migrations.0023_alter_student_options",
+        "description": "recipe.migrations.0023_alter_student_options",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('recipe', '0022_alter_studentid_options'),\n    ]\n    operations = [\n        migrations.AlterModelOptions(\n            name='student',\n            options={'ordering': ['student_name'], 'verbose_name': 'student'},\n        ),\n    ]",
+        "detail": "recipe.migrations.0023_alter_student_options",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "recipe.migrations.0024_alter_student_options",
+        "description": "recipe.migrations.0024_alter_student_options",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('recipe', '0023_alter_student_options'),\n    ]\n    operations = [\n        migrations.AlterModelOptions(\n            name='student',\n            options={'ordering': ['student_name']},\n        ),\n    ]",
+        "detail": "recipe.migrations.0024_alter_student_options",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "recipe.migrations.0025_alter_student_options",
+        "description": "recipe.migrations.0025_alter_student_options",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('recipe', '0024_alter_student_options'),\n    ]\n    operations = [\n        migrations.AlterModelOptions(\n            name='student',\n            options={'ordering': ['student_name'], 'verbose_name': 'student'},\n        ),\n    ]",
+        "detail": "recipe.migrations.0025_alter_student_options",
+        "documentation": {}
+    },
+    {
+        "label": "MemberAdmin",
+        "kind": 6,
+        "importPath": "recipe.admin",
+        "description": "recipe.admin",
+        "peekOfCode": "class MemberAdmin(admin.ModelAdmin):\n\tpass\nadmin.site.register(Recipe, MemberAdmin)\nadmin.site.register(Department, MemberAdmin) \nadmin.site.register(StudentID, MemberAdmin) \nadmin.site.register(Student, MemberAdmin)",
+        "detail": "recipe.admin",
+        "documentation": {}
+    },
+    {
+        "label": "RecipeConfig",
+        "kind": 6,
+        "importPath": "recipe.apps",
+        "description": "recipe.apps",
+        "peekOfCode": "class RecipeConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'recipe'",
+        "detail": "recipe.apps",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 2,
+        "importPath": "recipe.client",
+        "description": "recipe.client",
+        "peekOfCode": "def client(n=10) -> None:\n\ttry:\n\t    department_obj = Department.objects.all()\n\t    for _ in range(n):\n\t        department_index = random.randint(0, len(department_obj) - 1)\n\t        department = department_obj[department_index]\n\t        student_id = f'SM-0{random.randint(50, 250)}'\n\t        student_name = fake.name()\n\t        student_email = fake.email()\n\t        sutdent_age = random.randint(18, 25)",
+        "detail": "recipe.client",
+        "documentation": {}
+    },
+    {
+        "label": "fake",
+        "kind": 5,
+        "importPath": "recipe.client",
+        "description": "recipe.client",
+        "peekOfCode": "fake = Faker()\ndef client(n=10) -> None:\n\ttry:\n\t    department_obj = Department.objects.all()\n\t    for _ in range(n):\n\t        department_index = random.randint(0, len(department_obj) - 1)\n\t        department = department_obj[department_index]\n\t        student_id = f'SM-0{random.randint(50, 250)}'\n\t        student_name = fake.name()\n\t        student_email = fake.email()",
+        "detail": "recipe.client",
+        "documentation": {}
+    },
+    {
+        "label": "Recipe",
+        "kind": 6,
+        "importPath": "recipe.models",
+        "description": "recipe.models",
+        "peekOfCode": "class Recipe(models.Model):\n    user = models.ForeignKey(User, on_delete=models.SET_NULL, null=True, blank=True)\n    email = models.EmailField(default='example@example.com')\n    recipe_name = models.CharField(max_length=50, null=True, default=None)\n    recipe_des = models.TextField()\n    recipe_image = models.ImageField(upload_to='media', null=True)\n    recipe_count = models.IntegerField(default=1)\n    def __str__(self):\n        return self.recipe_name\nclass Department(models.Model):",
+        "detail": "recipe.models",
+        "documentation": {}
+    },
+    {
+        "label": "Department",
+        "kind": 6,
+        "importPath": "recipe.models",
+        "description": "recipe.models",
+        "peekOfCode": "class Department(models.Model):\n    department=models.CharField(max_length=50)\n    class Meta:\n        ordering = ['department']\n    def __str__(self):\n        return self.department\nclass StudentID(models.Model):\n    student_id=models.CharField(max_length=20)",
+        "detail": "recipe.models",
+        "documentation": {}
+    },
+    {
+        "label": "StudentID",
+        "kind": 6,
+        "importPath": "recipe.models",
+        "description": "recipe.models",
+        "peekOfCode": "class StudentID(models.Model):\n    student_id=models.CharField(max_length=20)\n    class Meta:\n        ordering = ['student_id']\n    def __str__(self):\n        return self.student_id\nclass Student(models.Model):\n    department=models.ForeignKey(Department, related_name ='depart' ,on_delete=models.CASCADE)\n    student_id=models.OneToOneField(StudentID,related_name='studentid',on_delete=models.CASCADE)\n    student_name=models.CharField(max_length=20)",
+        "detail": "recipe.models",
+        "documentation": {}
+    },
+    {
+        "label": "Student",
+        "kind": 6,
+        "importPath": "recipe.models",
+        "description": "recipe.models",
+        "peekOfCode": "class Student(models.Model):\n    department=models.ForeignKey(Department, related_name ='depart' ,on_delete=models.CASCADE)\n    student_id=models.OneToOneField(StudentID,related_name='studentid',on_delete=models.CASCADE)\n    student_name=models.CharField(max_length=20)\n    student_email=models.EmailField(unique=True)\n    sutdent_age=models.IntegerField(default=18)\n    student_address=models.TextField()\n    class Meta:\n        ordering = ['student_name']\n        verbose_name='student'",
+        "detail": "recipe.models",
+        "documentation": {}
+    },
+    {
+        "label": "recipes",
+        "kind": 2,
+        "importPath": "recipe.views",
+        "description": "recipe.views",
+        "peekOfCode": "def recipes(request):\n    email=''\n    if request.method == 'POST':\n        email = request.POST.get('email')\n        recipe_name = request.POST.get('recipe_name')\n        recipe_des = request.POST.get('recipe_des')\n        recipe_image = request.FILES.get('recipe_image')\n        # if email and recipe_name and recipe_des:\n        #     Recipe.objects.create(email=email, recipe_name=recipe_name, recipe_des=recipe_des, recipe_image=recipe_image)\n        #     subject, from_email, to = \"Recipes Email\", \"p1ashok36@gmail.com\", email",
+        "detail": "recipe.views",
+        "documentation": {}
+    },
+    {
+        "label": "delete_recipes",
+        "kind": 2,
+        "importPath": "recipe.views",
+        "description": "recipe.views",
+        "peekOfCode": "def delete_recipes(request,id):\n \tdele=Recipe.objects.get(id=id)\n \tdele.delete()\n \treturn redirect('recipes')\n@login_required(login_url=\"/login/\")\ndef update_recipes(request, id):\n    update_recipe = Recipe.objects.get(id=id)\n    if request.method == 'POST':\n        email = request.POST.get('email')\n        recipe_name = request.POST.get('recipe_name')",
+        "detail": "recipe.views",
+        "documentation": {}
+    },
+    {
+        "label": "update_recipes",
+        "kind": 2,
+        "importPath": "recipe.views",
+        "description": "recipe.views",
+        "peekOfCode": "def update_recipes(request, id):\n    update_recipe = Recipe.objects.get(id=id)\n    if request.method == 'POST':\n        email = request.POST.get('email')\n        recipe_name = request.POST.get('recipe_name')\n        recipe_des = request.POST.get('recipe_des')\n        recipe_image = request.FILES.get('recipe_image')\n        update_recipe.email = email\n        update_recipe.recipe_name = recipe_name\n        update_recipe.recipe_des = recipe_des",
+        "detail": "recipe.views",
+        "documentation": {}
+    },
+    {
+        "label": "login_page",
+        "kind": 2,
+        "importPath": "recipe.views",
+        "description": "recipe.views",
+        "peekOfCode": "def login_page(request):\n    if request.method == 'POST':\n        username=request.POST.get('username')\n        password=request.POST.get('password')\n        if not User.objects.filter(username = username).exists():\n            messages.error(request, \"Invalid username!\")\n            return redirect('/login/')\n        user = authenticate(username =username , password = password)\n        if user is None:\n            messages.error(request, \"Invalid PASSWORD!\")",
+        "detail": "recipe.views",
+        "documentation": {}
+    },
+    {
+        "label": "register",
+        "kind": 2,
+        "importPath": "recipe.views",
+        "description": "recipe.views",
+        "peekOfCode": "def register(request):\n    if request.method == 'POST':\n        first_name=request.POST.get('first_name')\n        last_name=request.POST.get('last_name')\n        username=request.POST.get('username')\n        password=request.POST.get('password')\n        user=User.objects.filter(username=username)\n        if user.exists():\n            messages.error(request, \"Username already exists!!\")\n            return redirect('/register')",
+        "detail": "recipe.views",
+        "documentation": {}
+    },
+    {
+        "label": "logout_page",
+        "kind": 2,
+        "importPath": "recipe.views",
+        "description": "recipe.views",
+        "peekOfCode": "def logout_page(request):\n    logout(request)\n    messages.success(request, \"Successfully Logout\")\n    return redirect('/login/')",
+        "detail": "recipe.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "recipes.asgi",
+        "description": "recipes.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "recipes.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "recipes.settings",
+        "description": "recipes.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-+ucukl*9$7r_x3ez9g3(*9g+-(hejudey+-^8w!m8^$&n2jzi!'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "recipes.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "recipes.settings",
+        "description": "recipes.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-+ucukl*9$7r_x3ez9g3(*9g+-(hejudey+-^8w!m8^$&n2jzi!'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "recipes.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "recipes.settings",
+        "description": "recipes.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "recipes.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "recipes.settings",
+        "description": "recipes.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'recipe',",
+        "detail": "recipes.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "recipes.settings",
+        "description": "recipes.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'recipe',\n    'bootstrap4',\n]",
+        "detail": "recipes.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTHENTICATION_BACKENDS",
+        "kind": 5,
+        "importPath": "recipes.settings",
+        "description": "recipes.settings",
+        "peekOfCode": "AUTHENTICATION_BACKENDS = [\n    'django.contrib.auth.backends.ModelBackend',\n]\nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',",
+        "detail": "recipes.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "recipes.settings",
+        "description": "recipes.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',",
+        "detail": "recipes.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "recipes.settings",
+        "description": "recipes.settings",
+        "peekOfCode": "ROOT_URLCONF = 'recipes.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [os.path.join(BASE_DIR, 'templates')],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "recipes.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "recipes.settings",
+        "description": "recipes.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [os.path.join(BASE_DIR, 'templates')],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "recipes.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "recipes.settings",
+        "description": "recipes.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'recipes.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/4.2/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "detail": "recipes.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "recipes.settings",
+        "description": "recipes.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "recipes.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "recipes.settings",
+        "description": "recipes.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "recipes.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "recipes.settings",
+        "description": "recipes.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\nSTATIC_ROOT = 'staticfiles'\nSTATIC_URL = '/static/'\n# ... (other settings)\nSTATIC_URL = '/static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATICFILES_DIRS = [",
+        "detail": "recipes.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "recipes.settings",
+        "description": "recipes.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\nSTATIC_ROOT = 'staticfiles'\nSTATIC_URL = '/static/'\n# ... (other settings)\nSTATIC_URL = '/static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'public/static'),  # Adjust the path according to your actual app name",
+        "detail": "recipes.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "recipes.settings",
+        "description": "recipes.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\nSTATIC_ROOT = 'staticfiles'\nSTATIC_URL = '/static/'\n# ... (other settings)\nSTATIC_URL = '/static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'public/static'),  # Adjust the path according to your actual app name\n]",
+        "detail": "recipes.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "recipes.settings",
+        "description": "recipes.settings",
+        "peekOfCode": "USE_TZ = True\nSTATIC_ROOT = 'staticfiles'\nSTATIC_URL = '/static/'\n# ... (other settings)\nSTATIC_URL = '/static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'public/static'),  # Adjust the path according to your actual app name\n]\nMEDIA_ROOT = os.path.join(BASE_DIR, 'public/static')",
+        "detail": "recipes.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_ROOT",
+        "kind": 5,
+        "importPath": "recipes.settings",
+        "description": "recipes.settings",
+        "peekOfCode": "STATIC_ROOT = 'staticfiles'\nSTATIC_URL = '/static/'\n# ... (other settings)\nSTATIC_URL = '/static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'public/static'),  # Adjust the path according to your actual app name\n]\nMEDIA_ROOT = os.path.join(BASE_DIR, 'public/static')\nMEDIA_URL = '/media/'",
+        "detail": "recipes.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "recipes.settings",
+        "description": "recipes.settings",
+        "peekOfCode": "STATIC_URL = '/static/'\n# ... (other settings)\nSTATIC_URL = '/static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'public/static'),  # Adjust the path according to your actual app name\n]\nMEDIA_ROOT = os.path.join(BASE_DIR, 'public/static')\nMEDIA_URL = '/media/'\nLOGIN_REDIRECT_URL = '/recipes/'  # Change this to the URL where you want to redirect users after login",
+        "detail": "recipes.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "recipes.settings",
+        "description": "recipes.settings",
+        "peekOfCode": "STATIC_URL = '/static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'public/static'),  # Adjust the path according to your actual app name\n]\nMEDIA_ROOT = os.path.join(BASE_DIR, 'public/static')\nMEDIA_URL = '/media/'\nLOGIN_REDIRECT_URL = '/recipes/'  # Change this to the URL where you want to redirect users after login\n# ... (other settings)\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "recipes.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_ROOT",
+        "kind": 5,
+        "importPath": "recipes.settings",
+        "description": "recipes.settings",
+        "peekOfCode": "STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'public/static'),  # Adjust the path according to your actual app name\n]\nMEDIA_ROOT = os.path.join(BASE_DIR, 'public/static')\nMEDIA_URL = '/media/'\nLOGIN_REDIRECT_URL = '/recipes/'  # Change this to the URL where you want to redirect users after login\n# ... (other settings)\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "recipes.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_DIRS",
+        "kind": 5,
+        "importPath": "recipes.settings",
+        "description": "recipes.settings",
+        "peekOfCode": "STATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'public/static'),  # Adjust the path according to your actual app name\n]\nMEDIA_ROOT = os.path.join(BASE_DIR, 'public/static')\nMEDIA_URL = '/media/'\nLOGIN_REDIRECT_URL = '/recipes/'  # Change this to the URL where you want to redirect users after login\n# ... (other settings)\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# # Email configuration",
+        "detail": "recipes.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_ROOT",
+        "kind": 5,
+        "importPath": "recipes.settings",
+        "description": "recipes.settings",
+        "peekOfCode": "MEDIA_ROOT = os.path.join(BASE_DIR, 'public/static')\nMEDIA_URL = '/media/'\nLOGIN_REDIRECT_URL = '/recipes/'  # Change this to the URL where you want to redirect users after login\n# ... (other settings)\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# # Email configuration\n# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\n# EMAIL_HOST = 'smtp.gmail.com'  # Replace with your SMTP server hostname or IP\n# EMAIL_PORT = 587  # Replace with the SMTP server port number\n# EMAIL_USE_TLS = True  # Set to False if your SMTP server doesn't use TLS",
+        "detail": "recipes.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_URL",
+        "kind": 5,
+        "importPath": "recipes.settings",
+        "description": "recipes.settings",
+        "peekOfCode": "MEDIA_URL = '/media/'\nLOGIN_REDIRECT_URL = '/recipes/'  # Change this to the URL where you want to redirect users after login\n# ... (other settings)\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# # Email configuration\n# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\n# EMAIL_HOST = 'smtp.gmail.com'  # Replace with your SMTP server hostname or IP\n# EMAIL_PORT = 587  # Replace with the SMTP server port number\n# EMAIL_USE_TLS = True  # Set to False if your SMTP server doesn't use TLS\n# EMAIL_HOST_USER = 'p1ashok36@gmail.com'  # Replace with your email address",
+        "detail": "recipes.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGIN_REDIRECT_URL",
+        "kind": 5,
+        "importPath": "recipes.settings",
+        "description": "recipes.settings",
+        "peekOfCode": "LOGIN_REDIRECT_URL = '/recipes/'  # Change this to the URL where you want to redirect users after login\n# ... (other settings)\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# # Email configuration\n# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\n# EMAIL_HOST = 'smtp.gmail.com'  # Replace with your SMTP server hostname or IP\n# EMAIL_PORT = 587  # Replace with the SMTP server port number\n# EMAIL_USE_TLS = True  # Set to False if your SMTP server doesn't use TLS\n# EMAIL_HOST_USER = 'p1ashok36@gmail.com'  # Replace with your email address\n# EMAIL_HOST_PASSWORD = '/'",
+        "detail": "recipes.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "recipes.settings",
+        "description": "recipes.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# # Email configuration\n# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\n# EMAIL_HOST = 'smtp.gmail.com'  # Replace with your SMTP server hostname or IP\n# EMAIL_PORT = 587  # Replace with the SMTP server port number\n# EMAIL_USE_TLS = True  # Set to False if your SMTP server doesn't use TLS\n# EMAIL_HOST_USER = 'p1ashok36@gmail.com'  # Replace with your email address\n# EMAIL_HOST_PASSWORD = '/'",
+        "detail": "recipes.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "recipes.urls",
+        "description": "recipes.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('',views.recipes, name='recipes'),\n    path('login/',views.login_page, name='login'),\n    path('register/',views.register, name='register'),\n    path('logout/',views.logout_page, name='logout'),\n    path('update_recipes/<id>/',views.update_recipes, name='update_recipes'),\n    path('delete_recipes/<id>/',views.delete_recipes, name='delete_recipes'),\n]   \nif settings.DEBUG:",
+        "detail": "recipes.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "recipes.wsgi",
+        "description": "recipes.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "recipes.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'recipes.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]

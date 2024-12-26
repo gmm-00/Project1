@@ -1,36 +1,203 @@
 {% load static %}
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Recipes</title>
-
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <title>Update Recipe - Delicious Recipes</title>
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+        crossorigin="anonymous">
+  
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  
+  <!-- Custom CSS -->
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .bg-image {
+      /* Ensure the image path matches your static files */
+      background-image: url("{% static 'images/food-bg.jpg' %}");
+      height: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+    }
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+    }
+    .update-container {
+      position: relative;
+      z-index: 2;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+    .update-card {
+      background: rgba(255, 255, 255, 0.95);
+      border-radius: 15px;
+      padding: 40px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+      max-width: 600px;
+      width: 100%;
+    }
+    .update-card h2 {
+      margin-bottom: 25px;
+      color: #343a40;
+      text-align: center;
+      font-weight: 600;
+    }
+    .btn-update {
+      background-color: #28a745;
+      border: none;
+      transition: background-color 0.3s ease;
+    }
+    .btn-update:hover {
+      background-color: #218838;
+    }
+    .form-label {
+      color: #495057;
+      font-weight: 500;
+    }
+    .current-image {
+      margin-bottom: 15px;
+      text-align: center;
+    }
+    .current-image img {
+      max-height: 200px;
+      border-radius: 10px;
+    }
+    .footer {
+      position: absolute;
+      bottom: 10px;
+      width: 100%;
+      text-align: center;
+      color: #ffffff;
+      z-index: 3;
+      font-size: 0.9rem;
+    }
+    /* Responsive adjustments */
+    @media (max-width: 576px) {
+      .update-card {
+        padding: 25px 20px;
+      }
+    }
+  </style>
 </head>
 <body>
-<div class="container mt-5 ">
-<form method="post" class="col-6 mx-auto card px-3 shadow-lg" enctype="multipart/form-data">
-  {% csrf_token %}
-  <h2 class="py-2"> Update Recipes</h2>
-  <hr>
-  <div class="mb-3">
-    <label  class="form-label">Email address</label>
-    <input type="email" class="form-control" name="email" value="{{update.email}}">
+  
+  <div class="bg-image">
+    <div class="overlay"></div>
+    <div class="update-container">
+      <div class="update-card">
+        <h2>Update Recipe</h2>
+        <form method="post" enctype="multipart/form-data">
+          {% csrf_token %}
+          
+          {% if messages %}
+            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+              {% for message in messages %}
+                {{ message }}
+              {% endfor %}
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+          {% endif %}
+          
+          <!-- Current Recipe Image (if exists) -->
+          {% if update.recipe_image %}
+            <div class="current-image">
+              <p>Current Image:</p>
+              <img src="{{ update.recipe_image.url }}" alt="{{ update.recipe_name }}" class="img-fluid">
+            </div>
+          {% endif %}
+          
+          <!-- Email Address Field -->
+          <div class="mb-4">
+            <label class="form-label">Email Address</label>
+            <div class="input-group">
+              <span class="input-group-text" id="email-addon">
+                <i class="bi bi-envelope-fill"></i>
+              </span>
+              <input type="email" class="form-control" name="email" placeholder="Enter your email"
+                     aria-label="Email Address" aria-describedby="email-addon" value="{{ update.email }}" required>
+            </div>
+          </div>
+          
+          <!-- Recipe Name Field -->
+          <div class="mb-4">
+            <label class="form-label">Recipe Name</label>
+            <div class="input-group">
+              <span class="input-group-text" id="recipeName-addon">
+                <i class="bi bi-recipe-fill"></i>
+              </span>
+              <input type="text" class="form-control" name="recipe_name" placeholder="e.g., Spaghetti Carbonara"
+                     aria-label="Recipe Name" aria-describedby="recipeName-addon" value="{{ update.recipe_name }}" required>
+            </div>
+          </div>
+          
+          <!-- Recipe Description Field -->
+          <div class="mb-4">
+            <label class="form-label">Recipe Description</label>
+            <div class="input-group">
+              <span class="input-group-text" id="description-addon">
+                <i class="bi bi-card-text"></i>
+              </span>
+              <textarea name="recipe_des" class="form-control" id="description-addon" rows="4"
+                        placeholder="Describe your recipe..." aria-label="Recipe Description"
+                        aria-describedby="description-addon" required>{{ update.recipe_des }}</textarea>
+            </div>
+          </div>
+          
+          <!-- Recipe Image Field -->
+          <div class="mb-4">
+            <label class="form-label">Recipe Image</label>
+            <div class="input-group">
+              <span class="input-group-text" id="image-addon">
+                <i class="bi bi-image-fill"></i>
+              </span>
+              <input type="file" class="form-control" name="recipe_image" accept="image/*"
+                     aria-label="Recipe Image" aria-describedby="image-addon">
+            </div>
+            <small class="form-text text-muted">Leave blank to keep the current image.</small>
+          </div>
+          
+          <!-- Submit Button -->
+          <div class="d-grid mb-3">
+            <button type="submit" class="btn btn-update btn-lg">Update Recipe</button>
+          </div>
+          
+          <!-- Back to Recipes Link -->
+          <div class="text-center">
+            <p><a href="/recipes" class="text-decoration-none">← Back to Recipes</a></p>
+          </div>
+        </form>
+      </div>
+    </div>
     
+    <!-- Optional Footer -->
+    <div class="footer">
+      <p>&copy; {{ current_year }} Delicious Recipes. All rights reserved.</p>
+    </div>
   </div>
-  <div class="mb-3">
-    <label  class="form-label">Recipes Name</label>
-    <input type="text" class="form-control" name="recipe_name" value="{{update.recipe_name}}">
-  </div>
-  <div class="mb-3">
-   <label for="exampleFormControlTextarea1" class="form-label" >Recipes Description</label>
-  <textarea name="recipe_des" class="form-control" id="exampleFormControlTextarea1" rows="3">{{update.recipe_des}}</textarea>
-
-  </div>
-    <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Recipes Image</label>
-    <input type="file" class="form-control" name="recipe_image">
-  </div>
-  <div class="mb-3">
-  <button type="submit" value="submit" class="btn btn-success">Update</button></div></form></div></body></html>
+  
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-ENjdO4Dr2bkBIFxQpeo+7GJkM5t3Q6c5ckB/ejzY9Q1XgReuN7UQ6MkG5JKd8Q"
+          crossorigin="anonymous"></script>
+  
+</body>
+</html>

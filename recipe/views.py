@@ -8,7 +8,6 @@ from django.contrib.auth import authenticate, login , logout
 from django.contrib.auth.decorators import login_required
 
 
-@login_required(login_url="/login/")
 def recipes(request):
     email=''
     if request.method == 'POST':
@@ -17,19 +16,19 @@ def recipes(request):
         recipe_des = request.POST.get('recipe_des')
         recipe_image = request.FILES.get('recipe_image')
 
-        if email and recipe_name and recipe_des:
-            Recipe.objects.create(email=email, recipe_name=recipe_name, recipe_des=recipe_des, recipe_image=recipe_image)
+        # if email and recipe_name and recipe_des:
+        #     Recipe.objects.create(email=email, recipe_name=recipe_name, recipe_des=recipe_des, recipe_image=recipe_image)
 
-            subject, from_email, to = "Recipes Email", "p1ashok36@gmail.com", email
-            text_content = "This is an important message."
-            html_content = "<b>This is a sample welcome message for Adding Recipes.</b>"
+        #     subject, from_email, to = "Recipes Email", "p1ashok36@gmail.com", email
+        #     text_content = "This is an important message."
+        #     html_content = "<b>This is a sample welcome message for Adding Recipes.</b>"
             
-            msg = EmailMultiAlternatives(subject, text_content, from_email, [to])
-            msg.attach_alternative(html_content, "text/html")
-            msg.send()
+        #     msg = EmailMultiAlternatives(subject, text_content, from_email, [to])
+        #     msg.attach_alternative(html_content, "text/html")
+        #     msg.send()
 
 
-            return redirect('recipes')  # Redirect to the same URL after successful form submission
+            # return redirect('recipes')  # Redirect to the same URL after successful form submission
 
     recipes = Recipe.objects.all()
 
@@ -97,6 +96,7 @@ def login_page(request):
         else:
             login(request , user)
             return redirect('recipes')
+
 
     return render(request , 'login.html')
 
