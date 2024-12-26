@@ -956,7 +956,7 @@
         "kind": 5,
         "importPath": "recipes.settings",
         "description": "recipes.settings",
-        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'recipes.urls'",
         "detail": "recipes.settings",
         "documentation": {}
     },
@@ -1019,7 +1019,7 @@
         "kind": 5,
         "importPath": "recipes.settings",
         "description": "recipes.settings",
-        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\nSTATIC_ROOT = 'staticfiles'\nSTATIC_URL = '/static/'\n# ... (other settings)\nSTATIC_URL = '/static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'static'),",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\nSTATIC_ROOT = 'staticfiles'\nSTATIC_URL = '/static/'\n# ... (other settings)\nSTATIC_URL = '/static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'public/static'),  # Adjust the path according to your actual app name",
         "detail": "recipes.settings",
         "documentation": {}
     },
@@ -1028,7 +1028,7 @@
         "kind": 5,
         "importPath": "recipes.settings",
         "description": "recipes.settings",
-        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\nSTATIC_ROOT = 'staticfiles'\nSTATIC_URL = '/static/'\n# ... (other settings)\nSTATIC_URL = '/static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'static'),\n]",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\nSTATIC_ROOT = 'staticfiles'\nSTATIC_URL = '/static/'\n# ... (other settings)\nSTATIC_URL = '/static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'public/static'),  # Adjust the path according to your actual app name\n]",
         "detail": "recipes.settings",
         "documentation": {}
     },
@@ -1037,7 +1037,7 @@
         "kind": 5,
         "importPath": "recipes.settings",
         "description": "recipes.settings",
-        "peekOfCode": "USE_TZ = True\nSTATIC_ROOT = 'staticfiles'\nSTATIC_URL = '/static/'\n# ... (other settings)\nSTATIC_URL = '/static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'static'),\n]\nMEDIA_ROOT = os.path.join(BASE_DIR, 'public/static')",
+        "peekOfCode": "USE_TZ = True\nSTATIC_ROOT = 'staticfiles'\nSTATIC_URL = '/static/'\n# ... (other settings)\nSTATIC_URL = '/static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'public/static'),  # Adjust the path according to your actual app name\n]\nMEDIA_ROOT = os.path.join(BASE_DIR, 'public/static')",
         "detail": "recipes.settings",
         "documentation": {}
     },
@@ -1046,7 +1046,7 @@
         "kind": 5,
         "importPath": "recipes.settings",
         "description": "recipes.settings",
-        "peekOfCode": "STATIC_ROOT = 'staticfiles'\nSTATIC_URL = '/static/'\n# ... (other settings)\nSTATIC_URL = '/static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'static'),\n]\nMEDIA_ROOT = os.path.join(BASE_DIR, 'public/static')\nMEDIA_URL = '/media/'",
+        "peekOfCode": "STATIC_ROOT = 'staticfiles'\nSTATIC_URL = '/static/'\n# ... (other settings)\nSTATIC_URL = '/static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'public/static'),  # Adjust the path according to your actual app name\n]\nMEDIA_ROOT = os.path.join(BASE_DIR, 'public/static')\nMEDIA_URL = '/media/'",
         "detail": "recipes.settings",
         "documentation": {}
     },
@@ -1055,7 +1055,7 @@
         "kind": 5,
         "importPath": "recipes.settings",
         "description": "recipes.settings",
-        "peekOfCode": "STATIC_URL = '/static/'\n# ... (other settings)\nSTATIC_URL = '/static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'static'),\n]\nMEDIA_ROOT = os.path.join(BASE_DIR, 'public/static')\nMEDIA_URL = '/media/'\nLOGIN_REDIRECT_URL = '/recipes/'  # Change this to the URL where you want to redirect users after login",
+        "peekOfCode": "STATIC_URL = '/static/'\n# ... (other settings)\nSTATIC_URL = '/static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'public/static'),  # Adjust the path according to your actual app name\n]\nMEDIA_ROOT = os.path.join(BASE_DIR, 'public/static')\nMEDIA_URL = '/media/'\nLOGIN_REDIRECT_URL = '/recipes/'  # Change this to the URL where you want to redirect users after login",
         "detail": "recipes.settings",
         "documentation": {}
     },
@@ -1064,7 +1064,7 @@
         "kind": 5,
         "importPath": "recipes.settings",
         "description": "recipes.settings",
-        "peekOfCode": "STATIC_URL = '/static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'static'),\n]\nMEDIA_ROOT = os.path.join(BASE_DIR, 'public/static')\nMEDIA_URL = '/media/'\nLOGIN_REDIRECT_URL = '/recipes/'  # Change this to the URL where you want to redirect users after login\n# ... (other settings)\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "STATIC_URL = '/static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'public/static'),  # Adjust the path according to your actual app name\n]\nMEDIA_ROOT = os.path.join(BASE_DIR, 'public/static')\nMEDIA_URL = '/media/'\nLOGIN_REDIRECT_URL = '/recipes/'  # Change this to the URL where you want to redirect users after login\n# ... (other settings)\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
         "detail": "recipes.settings",
         "documentation": {}
     },
@@ -1073,7 +1073,7 @@
         "kind": 5,
         "importPath": "recipes.settings",
         "description": "recipes.settings",
-        "peekOfCode": "STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'static'),\n]\nMEDIA_ROOT = os.path.join(BASE_DIR, 'public/static')\nMEDIA_URL = '/media/'\nLOGIN_REDIRECT_URL = '/recipes/'  # Change this to the URL where you want to redirect users after login\n# ... (other settings)\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'public/static'),  # Adjust the path according to your actual app name\n]\nMEDIA_ROOT = os.path.join(BASE_DIR, 'public/static')\nMEDIA_URL = '/media/'\nLOGIN_REDIRECT_URL = '/recipes/'  # Change this to the URL where you want to redirect users after login\n# ... (other settings)\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
         "detail": "recipes.settings",
         "documentation": {}
     },
@@ -1082,7 +1082,7 @@
         "kind": 5,
         "importPath": "recipes.settings",
         "description": "recipes.settings",
-        "peekOfCode": "STATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'static'),\n]\nMEDIA_ROOT = os.path.join(BASE_DIR, 'public/static')\nMEDIA_URL = '/media/'\nLOGIN_REDIRECT_URL = '/recipes/'  # Change this to the URL where you want to redirect users after login\n# ... (other settings)\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "STATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'public/static'),  # Adjust the path according to your actual app name\n]\nMEDIA_ROOT = os.path.join(BASE_DIR, 'public/static')\nMEDIA_URL = '/media/'\nLOGIN_REDIRECT_URL = '/recipes/'  # Change this to the URL where you want to redirect users after login\n# ... (other settings)\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
         "detail": "recipes.settings",
         "documentation": {}
     },
