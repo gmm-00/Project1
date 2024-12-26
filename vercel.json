@@ -1,28 +1,28 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "recipes/wsgi.py",
-      "use": "@vercel/python",
-      "config": {
-        "maxLambdaSize": "15mb",
-        "runtime": "python3.12"
+    "version": 2,
+    "builds": [
+      {
+        "src": "recipes/wsgi.py",
+        "use": "@vercel/python",
+        "config": {
+          "maxLambdaSize": "15mb",
+          "runtime": "python3.12"
+        }
       }
-    }
-  ],
-  "routes": [
-    {
-      "src": "/static/(.*)",
-      "dest": "/static/$1"
-    },
-    {
-      "src": "/media/(.*)",
-      "dest": "/media/$1"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "recipes/wsgi.py"
-    }
-  ],
-  "buildCommand": "./build_files.sh"
-}
+    ],
+    "routes": [
+      {
+        "src": "/static/(.*)",
+        "dest": "/static/$1"
+      },
+      {
+        "src": "/media/(.*)",
+        "dest": "/media/$1"
+      },
+      {
+        "src": "/(.*)",
+        "dest": "recipes/wsgi.py"
+      }
+    ],
+    "buildCommand": "./build_files.sh"
+  }

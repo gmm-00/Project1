@@ -1136,7 +1136,7 @@
         "kind": 5,
         "importPath": "recipes.wsgi",
         "description": "recipes.wsgi",
-        "peekOfCode": "application = get_wsgi_application()",
+        "peekOfCode": "application = get_wsgi_application()\napp=application",
         "detail": "recipes.wsgi",
         "documentation": {}
     },
