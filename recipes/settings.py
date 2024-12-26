@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-+ucukl*9$7r_x3ez9g3(*9g+-(hejudey+-^8w!m8^$&n2jzi!'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.vercel.app','127.0.0.1','.now.sh']
 
 
 # Application definition
@@ -148,15 +148,3 @@ LOGIN_REDIRECT_URL = '/recipes/'  # Change this to the URL where you want to red
 
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
-
-
-
-
-# # Email configuration
-# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-# EMAIL_HOST = 'smtp.gmail.com'  # Replace with your SMTP server hostname or IP
-# EMAIL_PORT = 587  # Replace with the SMTP server port number
-# EMAIL_USE_TLS = True  # Set to False if your SMTP server doesn't use TLS
-# EMAIL_HOST_USER = 'p1ashok36@gmail.com'  # Replace with your email address
-# EMAIL_HOST_PASSWORD = '/' 

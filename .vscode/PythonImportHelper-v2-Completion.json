@@ -902,7 +902,7 @@
         "kind": 5,
         "importPath": "recipes.settings",
         "description": "recipes.settings",
-        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-+ucukl*9$7r_x3ez9g3(*9g+-(hejudey+-^8w!m8^$&n2jzi!'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-+ucukl*9$7r_x3ez9g3(*9g+-(hejudey+-^8w!m8^$&n2jzi!'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = False\nALLOWED_HOSTS = ['.vercel.app','127.0.0.1','.now.sh']\n# Application definition\nINSTALLED_APPS = [",
         "detail": "recipes.settings",
         "documentation": {}
     },
@@ -911,7 +911,7 @@
         "kind": 5,
         "importPath": "recipes.settings",
         "description": "recipes.settings",
-        "peekOfCode": "SECRET_KEY = 'django-insecure-+ucukl*9$7r_x3ez9g3(*9g+-(hejudey+-^8w!m8^$&n2jzi!'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-+ucukl*9$7r_x3ez9g3(*9g+-(hejudey+-^8w!m8^$&n2jzi!'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = False\nALLOWED_HOSTS = ['.vercel.app','127.0.0.1','.now.sh']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
         "detail": "recipes.settings",
         "documentation": {}
     },
@@ -920,7 +920,7 @@
         "kind": 5,
         "importPath": "recipes.settings",
         "description": "recipes.settings",
-        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "peekOfCode": "DEBUG = False\nALLOWED_HOSTS = ['.vercel.app','127.0.0.1','.now.sh']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
         "detail": "recipes.settings",
         "documentation": {}
     },
@@ -929,7 +929,7 @@
         "kind": 5,
         "importPath": "recipes.settings",
         "description": "recipes.settings",
-        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'recipe',",
+        "peekOfCode": "ALLOWED_HOSTS = ['.vercel.app','127.0.0.1','.now.sh']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'recipe',",
         "detail": "recipes.settings",
         "documentation": {}
     },
@@ -1082,7 +1082,7 @@
         "kind": 5,
         "importPath": "recipes.settings",
         "description": "recipes.settings",
-        "peekOfCode": "STATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'public/static'),  # Adjust the path according to your actual app name\n]\nMEDIA_ROOT = os.path.join(BASE_DIR, 'public/static')\nMEDIA_URL = '/media/'\nLOGIN_REDIRECT_URL = '/recipes/'  # Change this to the URL where you want to redirect users after login\n# ... (other settings)\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# # Email configuration",
+        "peekOfCode": "STATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'public/static'),  # Adjust the path according to your actual app name\n]\nMEDIA_ROOT = os.path.join(BASE_DIR, 'public/static')\nMEDIA_URL = '/media/'\nLOGIN_REDIRECT_URL = '/recipes/'  # Change this to the URL where you want to redirect users after login\n# ... (other settings)\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
         "detail": "recipes.settings",
         "documentation": {}
     },
@@ -1091,7 +1091,7 @@
         "kind": 5,
         "importPath": "recipes.settings",
         "description": "recipes.settings",
-        "peekOfCode": "MEDIA_ROOT = os.path.join(BASE_DIR, 'public/static')\nMEDIA_URL = '/media/'\nLOGIN_REDIRECT_URL = '/recipes/'  # Change this to the URL where you want to redirect users after login\n# ... (other settings)\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# # Email configuration\n# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\n# EMAIL_HOST = 'smtp.gmail.com'  # Replace with your SMTP server hostname or IP\n# EMAIL_PORT = 587  # Replace with the SMTP server port number\n# EMAIL_USE_TLS = True  # Set to False if your SMTP server doesn't use TLS",
+        "peekOfCode": "MEDIA_ROOT = os.path.join(BASE_DIR, 'public/static')\nMEDIA_URL = '/media/'\nLOGIN_REDIRECT_URL = '/recipes/'  # Change this to the URL where you want to redirect users after login\n# ... (other settings)\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
         "detail": "recipes.settings",
         "documentation": {}
     },
@@ -1100,7 +1100,7 @@
         "kind": 5,
         "importPath": "recipes.settings",
         "description": "recipes.settings",
-        "peekOfCode": "MEDIA_URL = '/media/'\nLOGIN_REDIRECT_URL = '/recipes/'  # Change this to the URL where you want to redirect users after login\n# ... (other settings)\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# # Email configuration\n# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\n# EMAIL_HOST = 'smtp.gmail.com'  # Replace with your SMTP server hostname or IP\n# EMAIL_PORT = 587  # Replace with the SMTP server port number\n# EMAIL_USE_TLS = True  # Set to False if your SMTP server doesn't use TLS\n# EMAIL_HOST_USER = 'p1ashok36@gmail.com'  # Replace with your email address",
+        "peekOfCode": "MEDIA_URL = '/media/'\nLOGIN_REDIRECT_URL = '/recipes/'  # Change this to the URL where you want to redirect users after login\n# ... (other settings)\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
         "detail": "recipes.settings",
         "documentation": {}
     },
@@ -1109,7 +1109,7 @@
         "kind": 5,
         "importPath": "recipes.settings",
         "description": "recipes.settings",
-        "peekOfCode": "LOGIN_REDIRECT_URL = '/recipes/'  # Change this to the URL where you want to redirect users after login\n# ... (other settings)\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# # Email configuration\n# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\n# EMAIL_HOST = 'smtp.gmail.com'  # Replace with your SMTP server hostname or IP\n# EMAIL_PORT = 587  # Replace with the SMTP server port number\n# EMAIL_USE_TLS = True  # Set to False if your SMTP server doesn't use TLS\n# EMAIL_HOST_USER = 'p1ashok36@gmail.com'  # Replace with your email address\n# EMAIL_HOST_PASSWORD = '/'",
+        "peekOfCode": "LOGIN_REDIRECT_URL = '/recipes/'  # Change this to the URL where you want to redirect users after login\n# ... (other settings)\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
         "detail": "recipes.settings",
         "documentation": {}
     },
@@ -1118,7 +1118,7 @@
         "kind": 5,
         "importPath": "recipes.settings",
         "description": "recipes.settings",
-        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# # Email configuration\n# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\n# EMAIL_HOST = 'smtp.gmail.com'  # Replace with your SMTP server hostname or IP\n# EMAIL_PORT = 587  # Replace with the SMTP server port number\n# EMAIL_USE_TLS = True  # Set to False if your SMTP server doesn't use TLS\n# EMAIL_HOST_USER = 'p1ashok36@gmail.com'  # Replace with your email address\n# EMAIL_HOST_PASSWORD = '/'",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
         "detail": "recipes.settings",
         "documentation": {}
     },
