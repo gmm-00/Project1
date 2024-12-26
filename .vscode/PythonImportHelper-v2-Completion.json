@@ -296,6 +296,14 @@
         "documentation": {}
     },
     {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
@@ -434,11 +442,11 @@
         "documentation": {}
     },
     {
-        "label": "EmailMultiAlternatives",
-        "importPath": "django.core.mail",
-        "description": "django.core.mail",
+        "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
         "isExtraImport": true,
-        "detail": "django.core.mail",
+        "detail": "django.shortcuts",
         "documentation": {}
     },
     {
@@ -773,11 +781,20 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "recipe.migrations.0026_remove_student_department_remove_student_student_id_and_more",
+        "description": "recipe.migrations.0026_remove_student_department_remove_student_student_id_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('recipe', '0025_alter_student_options'),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='student',\n            name='department',\n        ),\n        migrations.RemoveField(",
+        "detail": "recipe.migrations.0026_remove_student_department_remove_student_student_id_and_more",
+        "documentation": {}
+    },
+    {
         "label": "MemberAdmin",
         "kind": 6,
         "importPath": "recipe.admin",
         "description": "recipe.admin",
-        "peekOfCode": "class MemberAdmin(admin.ModelAdmin):\n\tpass\nadmin.site.register(Recipe, MemberAdmin)\nadmin.site.register(Department, MemberAdmin) \nadmin.site.register(StudentID, MemberAdmin) \nadmin.site.register(Student, MemberAdmin)",
+        "peekOfCode": "class MemberAdmin(admin.ModelAdmin):\n\tpass\nadmin.site.register(Recipe, MemberAdmin)",
         "detail": "recipe.admin",
         "documentation": {}
     },
@@ -813,34 +830,7 @@
         "kind": 6,
         "importPath": "recipe.models",
         "description": "recipe.models",
-        "peekOfCode": "class Recipe(models.Model):\n    user = models.ForeignKey(User, on_delete=models.SET_NULL, null=True, blank=True)\n    email = models.EmailField(default='example@example.com')\n    recipe_name = models.CharField(max_length=50, null=True, default=None)\n    recipe_des = models.TextField()\n    recipe_image = models.ImageField(upload_to='media', null=True)\n    recipe_count = models.IntegerField(default=1)\n    def __str__(self):\n        return self.recipe_name\nclass Department(models.Model):",
-        "detail": "recipe.models",
-        "documentation": {}
-    },
-    {
-        "label": "Department",
-        "kind": 6,
-        "importPath": "recipe.models",
-        "description": "recipe.models",
-        "peekOfCode": "class Department(models.Model):\n    department=models.CharField(max_length=50)\n    class Meta:\n        ordering = ['department']\n    def __str__(self):\n        return self.department\nclass StudentID(models.Model):\n    student_id=models.CharField(max_length=20)",
-        "detail": "recipe.models",
-        "documentation": {}
-    },
-    {
-        "label": "StudentID",
-        "kind": 6,
-        "importPath": "recipe.models",
-        "description": "recipe.models",
-        "peekOfCode": "class StudentID(models.Model):\n    student_id=models.CharField(max_length=20)\n    class Meta:\n        ordering = ['student_id']\n    def __str__(self):\n        return self.student_id\nclass Student(models.Model):\n    department=models.ForeignKey(Department, related_name ='depart' ,on_delete=models.CASCADE)\n    student_id=models.OneToOneField(StudentID,related_name='studentid',on_delete=models.CASCADE)\n    student_name=models.CharField(max_length=20)",
-        "detail": "recipe.models",
-        "documentation": {}
-    },
-    {
-        "label": "Student",
-        "kind": 6,
-        "importPath": "recipe.models",
-        "description": "recipe.models",
-        "peekOfCode": "class Student(models.Model):\n    department=models.ForeignKey(Department, related_name ='depart' ,on_delete=models.CASCADE)\n    student_id=models.OneToOneField(StudentID,related_name='studentid',on_delete=models.CASCADE)\n    student_name=models.CharField(max_length=20)\n    student_email=models.EmailField(unique=True)\n    sutdent_age=models.IntegerField(default=18)\n    student_address=models.TextField()\n    class Meta:\n        ordering = ['student_name']\n        verbose_name='student'",
+        "peekOfCode": "class Recipe(models.Model):\n    user = models.ForeignKey(User, on_delete=models.SET_NULL, null=True, blank=True)\n    email = models.EmailField(default='example@example.com')\n    recipe_name = models.CharField(max_length=50, null=True, default=None)\n    recipe_des = models.TextField()\n    recipe_image = models.ImageField(upload_to='media', null=True)\n    recipe_count = models.IntegerField(default=1)\n    def __str__(self):\n        return self.recipe_name",
         "detail": "recipe.models",
         "documentation": {}
     },
@@ -849,7 +839,7 @@
         "kind": 2,
         "importPath": "recipe.views",
         "description": "recipe.views",
-        "peekOfCode": "def recipes(request):\n    email=''\n    if request.method == 'POST':\n        email = request.POST.get('email')\n        recipe_name = request.POST.get('recipe_name')\n        recipe_des = request.POST.get('recipe_des')\n        recipe_image = request.FILES.get('recipe_image')\n        # if email and recipe_name and recipe_des:\n        #     Recipe.objects.create(email=email, recipe_name=recipe_name, recipe_des=recipe_des, recipe_image=recipe_image)\n        #     subject, from_email, to = \"Recipes Email\", \"p1ashok36@gmail.com\", email",
+        "peekOfCode": "def recipes(request):\n    if request.method == 'POST':\n        email = request.POST.get('email')\n        recipe_name = request.POST.get('recipe_name')\n        recipe_des = request.POST.get('recipe_des')\n        recipe_image = request.FILES.get('recipe_image')\n        if email and recipe_name and recipe_des:\n            Recipe.objects.create(\n                email=email,\n                recipe_name=recipe_name,",
         "detail": "recipe.views",
         "documentation": {}
     },
@@ -858,7 +848,7 @@
         "kind": 2,
         "importPath": "recipe.views",
         "description": "recipe.views",
-        "peekOfCode": "def delete_recipes(request,id):\n \tdele=Recipe.objects.get(id=id)\n \tdele.delete()\n \treturn redirect('recipes')\n@login_required(login_url=\"/login/\")\ndef update_recipes(request, id):\n    update_recipe = Recipe.objects.get(id=id)\n    if request.method == 'POST':\n        email = request.POST.get('email')\n        recipe_name = request.POST.get('recipe_name')",
+        "peekOfCode": "def delete_recipes(request, id):\n    recipe = get_object_or_404(Recipe, id=id)\n    recipe.delete()\n    messages.success(request, \"Recipe deleted successfully.\")\n    return redirect('recipes')\n@login_required(login_url=\"/login/\")\ndef update_recipes(request, id):\n    update_recipe = get_object_or_404(Recipe, id=id)\n    if request.method == 'POST':\n        email = request.POST.get('email')",
         "detail": "recipe.views",
         "documentation": {}
     },
@@ -867,7 +857,7 @@
         "kind": 2,
         "importPath": "recipe.views",
         "description": "recipe.views",
-        "peekOfCode": "def update_recipes(request, id):\n    update_recipe = Recipe.objects.get(id=id)\n    if request.method == 'POST':\n        email = request.POST.get('email')\n        recipe_name = request.POST.get('recipe_name')\n        recipe_des = request.POST.get('recipe_des')\n        recipe_image = request.FILES.get('recipe_image')\n        update_recipe.email = email\n        update_recipe.recipe_name = recipe_name\n        update_recipe.recipe_des = recipe_des",
+        "peekOfCode": "def update_recipes(request, id):\n    update_recipe = get_object_or_404(Recipe, id=id)\n    if request.method == 'POST':\n        email = request.POST.get('email')\n        recipe_name = request.POST.get('recipe_name')\n        recipe_des = request.POST.get('recipe_des')\n        recipe_image = request.FILES.get('recipe_image')\n        if email and recipe_name and recipe_des:\n            update_recipe.email = email\n            update_recipe.recipe_name = recipe_name",
         "detail": "recipe.views",
         "documentation": {}
     },
@@ -876,7 +866,7 @@
         "kind": 2,
         "importPath": "recipe.views",
         "description": "recipe.views",
-        "peekOfCode": "def login_page(request):\n    if request.method == 'POST':\n        username=request.POST.get('username')\n        password=request.POST.get('password')\n        if not User.objects.filter(username = username).exists():\n            messages.error(request, \"Invalid username!\")\n            return redirect('/login/')\n        user = authenticate(username =username , password = password)\n        if user is None:\n            messages.error(request, \"Invalid PASSWORD!\")",
+        "peekOfCode": "def login_page(request):\n    if request.method == 'POST':\n        username = request.POST.get('username')\n        password = request.POST.get('password')\n        if not User.objects.filter(username=username).exists():\n            messages.error(request, \"Invalid username!\")\n            return redirect('/login/')\n        user = authenticate(username=username, password=password)\n        if user is None:\n            messages.error(request, \"Invalid password!\")",
         "detail": "recipe.views",
         "documentation": {}
     },
@@ -885,7 +875,7 @@
         "kind": 2,
         "importPath": "recipe.views",
         "description": "recipe.views",
-        "peekOfCode": "def register(request):\n    if request.method == 'POST':\n        first_name=request.POST.get('first_name')\n        last_name=request.POST.get('last_name')\n        username=request.POST.get('username')\n        password=request.POST.get('password')\n        user=User.objects.filter(username=username)\n        if user.exists():\n            messages.error(request, \"Username already exists!!\")\n            return redirect('/register')",
+        "peekOfCode": "def register(request):\n    if request.method == 'POST':\n        first_name = request.POST.get('first_name')\n        last_name  = request.POST.get('last_name')\n        username   = request.POST.get('username')\n        password   = request.POST.get('password')\n        if User.objects.filter(username=username).exists():\n            messages.error(request, \"Username already exists!\")\n            return redirect('/register')\n        user = User.objects.create(",
         "detail": "recipe.views",
         "documentation": {}
     },
@@ -894,7 +884,7 @@
         "kind": 2,
         "importPath": "recipe.views",
         "description": "recipe.views",
-        "peekOfCode": "def logout_page(request):\n    logout(request)\n    messages.success(request, \"Successfully Logout\")\n    return redirect('/login/')",
+        "peekOfCode": "def logout_page(request):\n    logout(request)\n    messages.success(request, \"Successfully logged out.\")\n    return redirect('/login/')",
         "detail": "recipe.views",
         "documentation": {}
     },
@@ -993,7 +983,7 @@
         "kind": 5,
         "importPath": "recipes.settings",
         "description": "recipes.settings",
-        "peekOfCode": "WSGI_APPLICATION = 'recipes.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/4.2/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "peekOfCode": "WSGI_APPLICATION = 'recipes.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/4.2/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql',\n        'NAME': 'railway',\n        'USER': 'postgres',\n        'PASSWORD': 'OMzijiUhqPfueCwwuwUYJALSXKawZmBM',\n        'HOST': 'junction.proxy.rlwy.net',",
         "detail": "recipes.settings",
         "documentation": {}
     },
@@ -1002,7 +992,7 @@
         "kind": 5,
         "importPath": "recipes.settings",
         "description": "recipes.settings",
-        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql',\n        'NAME': 'railway',\n        'USER': 'postgres',\n        'PASSWORD': 'OMzijiUhqPfueCwwuwUYJALSXKawZmBM',\n        'HOST': 'junction.proxy.rlwy.net',\n        'PORT': '53922',\n    }\n}",
         "detail": "recipes.settings",
         "documentation": {}
     },

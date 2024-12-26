@@ -6,8 +6,3 @@ class MemberAdmin(admin.ModelAdmin):
 	pass
 
 admin.site.register(Recipe, MemberAdmin)
-admin.site.register(Department, MemberAdmin) 
-admin.site.register(StudentID, MemberAdmin) 
-admin.site.register(Student, MemberAdmin) 
-
-
