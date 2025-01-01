@@ -6,7 +6,7 @@ class Recipe(models.Model):
     email = models.EmailField(default='example@example.com')
     recipe_name = models.CharField(max_length=50, null=True, default=None)
     recipe_des = models.TextField()
-    recipe_image = models.ImageField(upload_to='media', null=True)
+    recipe_image = models.ImageField(upload_to='static', null=True)
     recipe_count = models.IntegerField(default=1)
 
     def __str__(self):

@@ -4,3 +4,5 @@ Django
 pillow
 psycopg2-binary
 sqlparse
+whitenoise
+

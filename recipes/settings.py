@@ -49,6 +49,7 @@ AUTHENTICATION_BACKENDS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -126,24 +127,26 @@ USE_TZ = True
 
 
 
-STATIC_ROOT = 'staticfiles'
-STATIC_URL = '/static/'
 # ... (other settings)
+
+
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'media'),  # Adjust the path according to your actual app name
+]
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'public/static'),  # Adjust the path according to your actual app name
-]
 
-MEDIA_ROOT = os.path.join(BASE_DIR, 'public/static')
+
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 
 LOGIN_REDIRECT_URL = '/recipes/'  # Change this to the URL where you want to redirect users after login
 
 # ... (other settings)
 
+STATICFILES_STORAGE= "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
